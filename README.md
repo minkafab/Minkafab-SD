@@ -1,4 +1,4 @@
-# Minkafab-S
+# Minkafab-SD
 ## Impresora 3D Minkafab
 Características:
 * Volúmen de impresión: 200x200x250mm
