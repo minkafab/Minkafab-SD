@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "name": "Minkafab S",
+    "name": "Minkafab SD",
     "inherits": "fdmprinter",
     "metadata": {
         "visible": true,
@@ -8,18 +8,18 @@
         "manufacturer": "Minkafab",
         "file_formats": "text/x-gcode",
         "icon": "icon_ultimaker2",
-        "platform": "Minkafab-S_platform.stl",
+        "platform": "Minkafab-SD_platform.stl",
         "has_materials": true,
 		 "machine_extruder_trains":
         {
-            "0": "Minkafab-S_extruder_0"
+            "0": "Minkafab-SD_extruder_0"
         }
     },
 
     "overrides": {
-		"machine_name": { "default_value": "Minkafab S" },
+		"machine_name": { "default_value": "Minkafab SD" },
         "machine_heated_bed": { "default_value": true },
-        "machine_width": { "default_value": 210 },
+        "machine_width": { "default_value": 200 },
         "machine_height": { "default_value": 250 },
         "machine_depth": { "default_value": 200 },
         "machine_center_is_zero": { "default_value": false },
@@ -28,17 +28,17 @@
         "machine_nozzle_size": { "default_value": 0.4 },
         "layer_height": { "default_value": 0.15 },
         "layer_height_0": { "default_value": 0.2 },
-        "retraction_amount": { "default_value": 4.0 },
-        "retraction_speed": { "default_value": 25.0 },
+        "retraction_amount": { "default_value": 1.0 },
+        "retraction_speed": { "default_value": 30.0 },
         "adhesion_type": { "default_value": "skirt" },
         "machine_head_with_fans_polygon": { "default_value": [[-47,34],[22,34],[22,-37],[-47,-37]] },
         "gantry_height": { "default_value": 25 },
-        "machine_max_feedrate_z": { "default_value": 12 },
-        "machine_max_feedrate_e": { "default_value": 25 },
-        "machine_max_acceleration_z": { "default_value": 500 },
+        "machine_max_feedrate_z": { "default_value": 10 },
+        "machine_max_feedrate_e": { "default_value": 40 },
+        "machine_max_acceleration_z": { "default_value": 100 },
         "machine_acceleration": { "default_value": 1250 },
-        "machine_max_jerk_xy": { "default_value": 8 },
-        "machine_max_jerk_z": { "default_value": 2.5 },
+        "machine_max_jerk_xy": { "default_value": 10 },
+        "machine_max_jerk_z": { "default_value": 2.0 },
         "machine_max_jerk_e": { "default_value": 25 },
         "machine_gcode_flavor": { "default_value": "RepRap (Marlin/Sprinter)" },
         "machine_start_gcode": {
